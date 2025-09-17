@@ -268,7 +268,7 @@
             $queryLogin->execute();
             $queryLogin->store_result();
             if($queryLogin->num_rows > 0){
-                echo "cliente logado com sucesso<br> <script>window.location.href='GestaoPedidos.php'</script>";
+                echo "cliente logado com sucesso<br> <script>window.location.href='/GestaoPedidos.php'</script>";
                 
             } else {
                 echo "cliente não existe, tente novamente"; 
