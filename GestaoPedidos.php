@@ -126,11 +126,11 @@
                 <h2 class="card-title h4 mb-3">Pedidos Registrados</h2>
                 <ul id="orderList" class="list-group">
                     <?php
-                        $servername = "localhost";
+                        $servername = "crossover.proxy.rlwy.net";
                         $username = "root";   // padrão do XAMPP
-                        $password = "";       // vazio no XAMPP
+                        $password = "YKVjAfrxTmdYHzWQZEsaTOEFLIAiPiWJ";
                         $dbname = "cafécomterra";
-                        $port = 3307;         // troque se usar outra porta
+                        $port = 44848;      // troque se usar outra porta
                         
                         $conn = new mysqli($servername, $username, $password, $dbname, $port);
                         
@@ -222,11 +222,11 @@
     <?php 
 
         if($_SERVER['REQUEST_METHOD'] === "POST"){
-            $servername = "localhost";
+            $servername = "crossover.proxy.rlwy.net";
             $username = "root";   // padrão do XAMPP
-            $password = "";       // vazio no XAMPP
+            $password = "YKVjAfrxTmdYHzWQZEsaTOEFLIAiPiWJ";
             $dbname = "cafécomterra";
-            $port = 3307;         // troque se usar outra porta
+            $port = 44848;
 
             $conn = new mysqli($servername, $username, $password, $dbname, $port);
             
